@@ -1,0 +1,18 @@
+<div class="row" id="searchDiv">
+	<div class="col-md-12 headerText">
+		<center><h4>GITHUB API</h4></center>
+	</div>
+   <div class="col-md-6 col-md-offset-3">
+	   <form id="searchForm" name="searchForm" ng-validate="">
+	   	<div class="input-group input-group-md">
+			 <input type="text" class="form-control input-md" id="searchText" placeholder="Enter Github Username" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Github Username'" ng-model="searchUser" name="searchText" autocomplete="off" autofocus>
+			 <span class="input-group-btn">
+			   <button class="btn btn-default btn-md" id="searchButton" ng-click="search()" type="submit" ng-disabled="!searchForm.searchText.$dirty && searchForm.searchText.$pristine"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
+			 </span>
+		    </div>
+	   </form>
+  </div>
+	<div class="col-md-12 errorText">
+		<center><h4>{{ errorMessage }}</h4></center>
+	</div>
+</div>

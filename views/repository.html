@@ -1,0 +1,38 @@
+<div ng-show="contributors">
+	<hr>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="headerText">
+					<center><h2>Repository : {{ repositoryName }}</h2></center>
+				</div>
+			</div>
+		</div>
+	
+	<center><h4>Showing the contributors</h4></center>
+
+	<div class="row" ng-repeat="info in contributors">
+		<hr>
+		<div class="col-md-2 col-md-offset-2">
+			<img ng-src="{{info.avatar_url}}" width="90" class="img img-responsive img-circle">
+		</div>
+		<div class="col-md-8">
+			<table>
+				<tbody>
+					<tr>
+						<td>Name</td>
+						<td>: {{ info.login }}</td>
+					</tr>
+					<tr>
+						<td>Link</td>
+						<td>: {{ info.url }}</td>
+					</tr>
+					<tr>
+						<td>Contributions</td>
+						<td>: {{ info.contributions }}</td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</div>
+	</div>
+</div>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+*{
+	font-family: Roboto;
+}
+
+#searchDiv {
+	margin-top: 20%;
+	margin-bottom: 30%;
+	
+}
+#searchText {
+	text-align: center;
+}
+#searchText:focus {
+	border-color: black;
+}
+
+#avatar_image{
+	box-shadow: 1px 1px 30px rgba(0,0,0,0.1);
+}
+td {
+	padding: 10px;
+}
