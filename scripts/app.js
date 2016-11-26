@@ -5,15 +5,15 @@
 		app.config(function($routeProvider) {
 			$routeProvider
 				.when("/search", {
-					templateUrl: "/views/search.html",
+					templateUrl: "views/search.html",
 					controller: "mainCtrl"
 				})
 				.when("/user/:username", {
-					templateUrl: "/views/user.html",
+					templateUrl: "views/user.html",
 					controller: "userCtrl"
 				})
 				.when("/user/:username/:repo_name", {
-					templateUrl: "/views/repository.html",
+					templateUrl: "views/repository.html",
 					controller: "repositoryCtrl"
 				})
 				.otherwise({ redirectTo: "/search" });
