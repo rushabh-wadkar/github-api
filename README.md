@@ -1,14 +1,13 @@
 <img src="images/titleIcon.png" align="right" width="80" />
-# Github API Fetch [![Github API Fetch](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/rushabh-wadkar/github-api)
+# Github API Fetch 
 > A Github API Fetch Project built using AngularJS
 
 It searches for a user inside api.github.com and returns the detailed information of the user in a proper format. Moreover, it also returns the number of repositories created under that specified username.
 
 
 ## Project Link
-```
-	Live at [https://rushabh-wadkar.github.com/github-api/](https://rushabh-wadkar.github.com/github-api/)
-```
+
+The Project is currently Live at [https://rushabh-wadkar.github.com/github-api/](https://rushabh-wadkar.github.com/github-api/)
 ## API
 Technology
 ```
@@ -16,7 +15,7 @@ Technology
 ```
 API
 ```
-	[Github API]("https://api.github.com")
+	Github API
 ```
 
 ## License
