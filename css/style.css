@@ -2,6 +2,13 @@
 
 *{
 	font-family: Roboto;
+	text-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 #searchDiv {
@@ -10,9 +17,6 @@
 }
 #searchText {
 	text-align: center;
-}
-#searchText:focus {
-	border-color: black;
 }
 
 #avatar_image{

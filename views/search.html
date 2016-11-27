@@ -8,7 +8,7 @@
 	   	<div class="input-group input-group-md">
 			 <input type="text" class="form-control input-md" id="searchText" placeholder="Enter Github Username" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Github Username'" ng-model="searchUser" name="searchText" autocomplete="off" autofocus>
 			 <span class="input-group-btn">
-			   <button class="btn btn-default btn-md" id="searchButton" ng-click="search()" type="submit" ng-disabled="!searchForm.searchText.$dirty && searchForm.searchText.$pristine"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
+			   <button class="btn btn-default btn-md btn-primary" id="searchButton" ng-click="search()" type="submit" ng-disabled="!searchForm.searchText.$dirty && searchForm.searchText.$pristine"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
 			 </span>
 		    </div>
 	   </form>
