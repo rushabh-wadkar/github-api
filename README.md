@@ -1,4 +1,4 @@
-<img src="images/titleIcon.png" align="right" width="80" />
+<img src="images/titleIcon.jpg" align="right" width="80" />
 # Github API Fetch 
 > A Github API Fetch Project built using AngularJS
 
