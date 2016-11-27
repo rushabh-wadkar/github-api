@@ -25,7 +25,7 @@
 			<center>
 				<h5 style="color: red">Repositories</h5>
 				<div ng-repeat="repoName in repo | orderBy: repoName.updated_at">
-					<a ng-click="gotoRepo(repoName.name)">{{repoName.name}}</a>
+					<a href="" ng-click="gotoRepo(repoName.name)">{{repoName.name}}</a>
 				</div>
 			</center>
 		</div>
