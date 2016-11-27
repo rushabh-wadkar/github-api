@@ -4,6 +4,21 @@
 
 It searches for a user inside api.github.com and returns the detailed information of the user in a proper format. Moreover, it also returns the number of repositories created under that specified username.
 
+
+## Project Link
+```
+	Live at [https://rushabh-wadkar.github.com/github-api/](https://rushabh-wadkar.github.com/github-api/)
+```
+## API
+Technology
+```
+	AngularJS 1.6.0
+```
+API
+```
+	[Github API]("https://api.github.com")
+```
+
 ## License
 
 MIT © [Rushabh Wadkar](https://github.com/rushabh-wadkar/github-api/blob/master/LICENSE)
