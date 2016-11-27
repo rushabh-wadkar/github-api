@@ -12,6 +12,7 @@
 		
 		<!-- Javascripts down here -->
 		<script src="vendor/scripts/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 		<script src="vendor/scripts/angular.min.js"></script>
 		<script src="vendor/scripts/angular-route.js"></script>
 		<script src="vendor/scripts/bootstrap.min.js"></script>
@@ -19,8 +20,15 @@
 		<script src="scripts/mainCtrl.js"></script>
 		<script src="scripts/userCtrl.js"></script>
 		<script src="scripts/repositoryCtrl.js"></script>
+		<script>
+				$(window).load(function() {
+					$(".se-pre-con").fadeOut("slow");
+					$(".bodytag").fadeIn("slow");
+				});
+		</script>
 	</head>
-	<body>
+	<body class="bodytag">
+		<div class="se-pre-con"></div>
 		<div class="container">
 			<div ng-view></div>
 		</div>
