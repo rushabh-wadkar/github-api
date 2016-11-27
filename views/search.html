@@ -5,8 +5,8 @@
 	</div>
    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
 	   <form id="searchForm" name="searchForm" ng-validate="">
-	   	<div class="input-group input-group-md">
-			 <input type="text" class="form-control input-md" id="searchText" placeholder="Enter Github Username" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Github Username'" ng-model="searchUser" name="searchText" autocomplete="off" autofocus>
+	   	<div class="input-group input-group-md input-group-sm">
+			 <input type="text" class="form-control input-md input-sm" id="searchText" placeholder="Enter Github Username" onfocus="this.placeholder = ''" onblur="this.placeholder='Enter Github Username'" ng-model="searchUser" name="searchText" autocomplete="off" autofocus>
 			 <span class="input-group-btn">
 			   <button class="btn btn-default btn-md btn-primary" id="searchButton" ng-click="search()" type="submit" ng-disabled="!searchForm.searchText.$dirty && searchForm.searchText.$pristine"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search</button>
 			 </span>
