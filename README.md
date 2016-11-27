@@ -1,4 +1,4 @@
-<img src="images/titleIcon.png" align="right" width="30" />
+<img src="images/titleIcon.png" align="right" width="80" />
 # Github API Fetch [![Github API Fetch](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 > A Github API Fetch Project built using AngularJS
 
